@@ -2,7 +2,7 @@
 
 """Alpha-beta filter for DFA.  Following the paper Echeverria et
 al. "Interpretation of heart rate variability via detrended
-fluctuation analysis and ab filter."
+fluctuation analysis and ab filter.", Chaos 2003; 13(2):467-75
 """
 
 import numpy as np
@@ -14,6 +14,7 @@ def ab_filter(ls,Fs,num_ls=500):
     Inputs:
     ls - window sizes in log
     Fs - fluctuations in log
+    num_ls - a number of window sizes to use in linear interpolation (default: 500).
     Outputs:
     me - estimation of the exponents as a function of window size
     ll - uniformly sampled window sizes on a log scale (ls)
