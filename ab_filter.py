@@ -6,7 +6,6 @@ fluctuation analysis and ab filter.", Chaos 2003; 13(2):467-75
 """
 
 import numpy as np
-import matplotlib.pyplot as plt
 
 def ab_filter(ls,Fs,num_ls=500):
     """

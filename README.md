@@ -23,5 +23,5 @@ usage and see information on alpha-beta filter elsewhere.
 ##### Package
 
 A single principal function `ab_filter` constitutes the package (with
-two ancillary functions). Dependency: python3.
+two ancillary functions). Dependency: python3 + NumPy.
 
